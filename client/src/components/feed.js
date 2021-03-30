@@ -30,26 +30,26 @@ export const PopUp = class PopUp extends Component {
                     <FontAwesomeIcon icon='times' />
                 </div>
                 {this.props.type === 'share' && <div className="sharepopup-2">
-                    <h1 style={{ color: 'black' }}>{this.props.info.user.name + ''}</h1>
+                    <h1 style={{ color: 'black' }}>{this.props.info.patientname + ''}</h1>
                     <p>Needs Your Help</p>
                     <p>Share with your contacts</p>
                     <div>
-                        <EmailShareButton url='https://www.bloodlink.com/donate' subject={"Someone needs your help"} body={this.props.message} openShareDialogOnClick={true} title>
+                        <EmailShareButton url='https://mernbloodlink.herokuapp.com/' subject={"Someone needs your help"} body={this.props.message} openShareDialogOnClick={true} title>
                             <EmailIcon size={32} round />
                         </EmailShareButton >
-                        <WhatsappShareButton url='https://www.bloodlink.com/donate' title={this.props.message}>
+                        <WhatsappShareButton url='https://mernbloodlink.herokuapp.com/' title={this.props.message}>
                             <WhatsappIcon size={32} round />
                         </WhatsappShareButton>
-                        <FacebookShareButton url='https://www.bloodlink.com/donate' quote={this.props.message}>
+                        <FacebookShareButton url='https://mernbloodlink.herokuapp.com/' quote={this.props.message}>
                             <FacebookIcon size={32} round />
                         </FacebookShareButton>
-                        <FacebookMessengerShareButton url='https://www.bloodlink.com/donate' quote={this.props.message}>
+                        <FacebookMessengerShareButton url='https://mernbloodlink.herokuapp.com/' quote={this.props.message}>
                             <FacebookMessengerIcon size={32} round />
                         </FacebookMessengerShareButton>
-                        <TelegramShareButton url='https://www.bloodlink.com/donate' title={this.props.message}>
+                        <TelegramShareButton url='https://mernbloodlink.herokuapp.com/' title={this.props.message}>
                             <TelegramIcon size={32} round />
                         </TelegramShareButton>
-                        <TwitterShareButton url='https://www.bloodlink.com/donate' title={this.props.message}>
+                        <TwitterShareButton url='https://mernbloodlink.herokuapp.com/' title={this.props.message}>
                             <TwitterIcon size={32} round />
                         </TwitterShareButton>
                     </div>
@@ -126,7 +126,7 @@ class BloodRequests extends Component {
                         if ((index < this.state.pageCount * 9) && (index >= (this.state.pageCount - 1) * 9)) {
                             return (<div className='bloodrequest' key={'bloodrequest' + (index + 1).toString()}>
                                 <div>
-                                    <h2>{info.patientname}<span className="colorize" style={{fontSize: '20px'}}>{this.props.user._id !== info.user._id ? '' : ' (You Requested)'}</span></h2>
+                                    <h2>{info.patientname}<br/><span className="colorize" style={{fontSize: '20px'}}>{this.props.user._id !== info.user._id ? '' : ' (You Requested)'}</span></h2>
                                     <p className="looking for">looking for <span className="bold">{info.bloodgroup}</span> in <span className="bold">{info.hospital}</span></p>
                                 </div>
                                 <div>{this.stringGenerator(info.createdAt)}</div>

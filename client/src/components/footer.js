@@ -26,7 +26,7 @@ export default class Footer extends Component {
                     </div>
                     <div className="footer-1-3 sidefooter">
                         <h6>Developer</h6>
-                        <div><a href="https://im-adithya.hashnode.dev/">Hashnode Blog</a></div>
+                        <div><a href="https://im-adithya.hashnode.dev/blood-link">Hashnode Blog</a></div>
                         <div><a href="mailto:imadithyavardhan@gmail.com">Contact Me</a></div>
                     </div>
                 </div>
