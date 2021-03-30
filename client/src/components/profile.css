@@ -1,0 +1,91 @@
+.profile{
+    background-color: #b21e2e;
+    width: 100%;
+    padding: 20vh 30px 5vh;
+}
+
+.profile h1{
+    margin: 5vh 0 15vh;
+    color: white;
+    text-align: center;
+}
+
+.userprof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #00000088;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.userdetails{
+    width: 65%;
+}
+
+.userdetails *{
+    font-size: 14px !important;
+}
+
+.userdetails label{
+    font-weight: bold;
+    display: block;
+}
+
+.userdetails input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.userdetails textarea{
+    width: 100%;
+    height: 50px;
+    padding: 0 5px;
+}
+
+.userdetails button{
+    display: block;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+.udbactive{
+    background-color: #b21e2e;
+}
+
+.udbactive:hover{
+    background-color: #ae1f2e;
+}
+
+.udbdisabled{
+    background-color: rgb(219, 219, 219);
+}
+
+.udbdisabled:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+@media(max-width: 500px){
+    .userprof{
+        width: unset;
+    }
+    .profile h1{
+        font-size: 25px !important;
+        margin: 0 0 20px;
+        text-align: left;
+    }
+    .userdetails{
+        width: 80%;
+    }
+}

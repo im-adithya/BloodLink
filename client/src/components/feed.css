@@ -1,0 +1,391 @@
+.feed{
+    background-color: #b21e2e;
+    padding: 20vh 5vw 20px;
+}
+
+.feed h1{
+    color: white;
+    text-align: center;
+    margin: 5vh 0 5vh;
+}
+
+.togglenotifs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+    border-radius: 10px;
+    width: 45%;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+.togglenotifs div{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 50%;
+}
+
+.activenotif{
+    background-color: white;
+    height: 39px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.bloodrequest,.orgupdates, .recentmembers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0px
+}
+
+.lookingfor{
+    font-size: 13px !important
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.reqmsg{
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.minimap >div>div{
+    height: 200px !important
+}
+
+.minimap button, .minimap .gmnoprint, .minimap .gm-spvc{
+    display: none !important
+}
+
+.helperbtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.helperbtns>button{
+    width: 48%;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.helperbtns>button:hover{
+    background-color: #1dad52;
+}
+
+.contactpatient>a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b21e2e;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.contactpatient-1{
+    font-size: 13px !important;
+}
+
+.share{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #6dc370;
+}
+
+.recentmembers>h3{
+    width: 80%
+}
+
+.newuser{
+    background-color: #ffcdcd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.userdetails h2{
+    font-size: 16px !important;
+    margin: 0;
+}
+
+.userdetails p{
+    font-size: 14px !important;
+    margin: 0;
+}
+
+.userbg{
+    background-color: #b21e2e;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px
+}
+
+.donorcount, .orgupdate-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.donorcount{
+    background-color: #ddd;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px -20px -20px;
+}
+
+.donrcount>h2{
+    margin-right: 10px;
+}
+
+.donorcount>h3{
+    font-size: 20px !important;
+    width: 75%
+}
+
+.orgupdate{
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.orgupdate-1{
+    font-size: 16px !important;
+}
+
+.readbtn{
+    font-size: 10px !important;
+    border: none;
+    outline:none;
+    width: 60px;
+    border-radius: 5px;
+    height: 25px;
+    color: white;
+    background-color: #b21e2e;
+}
+
+.requests{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.requestswrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloodrequest{
+    position: relative;
+    max-width: 30%;
+    flex: 25%;
+    margin: 0 20px 20px;
+}
+
+.bloodrequest p{
+    font-size: 16px;
+}
+
+.bloodrequest .bold{
+    font-size: 16px
+}
+
+.sharepopup{
+    position: absolute;
+    top: 20%;
+    background-color: #ffffff91;
+    box-shadow: 2px 2px 20px #bbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    margin-left: -150px;
+    left: 50%;
+    height: 250px;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+.sharepopup-2{
+    height:200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sharepopup-2>div{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sharepopup-2>h1{
+    font-size: 22px !important;
+}
+
+.callbtn, .wabtn{
+    width: 150px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.callbtn{
+    background-color: #b21e2e;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.callbtn>a{
+    font-size: 15px;
+}
+
+.wabtn{
+    background-color: #25D366;
+    margin-left: 5px;
+}
+
+.cross{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 10px 0 0;
+    color: black;
+    cursor: pointer;
+}
+
+.cross > svg{
+    font-size: 15px;
+}
+
+.pagination{
+    margin: 10px auto 0;
+}
+
+.pagination>li{
+    padding: 0 10px;
+    color: #363636;
+}
+
+.active > a{
+    color: #b21e2e !important;
+    outline: none
+}
+
+.notifwrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notifwrapper>div{
+    width: 45%;
+    max-width: 45%;
+}
+
+.orgupdates{
+    margin-right: 5%;
+    background-color: white;
+}
+
+.recentmembers{
+    margin-left: 5%;
+    margin-bottom: 0;
+    height: 70vh;
+    max-height: 70vh;
+}
+
+.pages{
+    margin: 0 auto;
+}
+
+.requests .active > a{
+    color: white !important;
+}
+
+@media(max-width: 500px){
+    .requests{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloodrequest{
+        position: relative;
+        max-width: 100%;
+        flex: 100%;
+        margin: 0 0 20px;
+    }
+    .notifwrapper{
+        display: unset;
+        flex-wrap: unset;
+    }
+    
+    .notifwrapper>div{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .orgupdates{
+        margin-right: 0;
+    }
+    
+    .recentmembers{
+        margin-left: 0;
+        height: auto;
+        max-height: 80vh
+    }
+    .feed h1{
+        font-size: 25px !important;
+        text-align: left !important;
+        margin: 0 0 20px !important;
+    }
+    .togglenotifs{
+        height: 40px;
+        width: unset;
+        margin: 20px 0px;
+    }
+    .donors .togglenotifs{
+        margin: 20px 10px;
+    }
+    .togglenotifs>div{
+        font-size: 18px;
+        height: 39px;
+    }
+}
