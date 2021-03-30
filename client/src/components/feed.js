@@ -151,7 +151,7 @@ class BloodRequests extends Component {
                                     <button className="share" onClick={this.toggleShare} title={index}>Share &nbsp;<FontAwesomeIcon icon={['fas', 'share-alt']} /></button>
                                 </div>
 
-                                {this.state.share === index && <PopUp cross={this.toggleShare} type={'share'} info={info} message={info.user.name + ' is looking for ' + info.bloodgroup + 'blood in ' + info.hospital + '. Please help him if you can! Contact: ' + info.contactphone} />}
+                                {this.state.share === index && <PopUp cross={this.toggleShare} type={'share'} info={info} message={info.user.name + ' is looking for ' + info.bloodgroup + 'blood in ' + info.hospital + '. Please help him if you can! Contact: ' + info.patientphone} />}
                             </div>)
                         } else {
                             return null;
