@@ -4,11 +4,11 @@
 
 <h1 align="center">Blood Link</h1>
 <p align="center">
-    <img src="https://img.shields.io/github/issues/im-adithya/BloodLink?style=flat-square&logo=appveyor&color=blueviolet">
-    <img src="https://img.shields.io/github/issues-closed/im-adithya/BloodLink?style=flat-square&logo=appveyor&color=success">
-    <img src="https://img.shields.io/github/forks/im-adithya/BloodLink?style=flat-square&logo=appveyor&color=informational">
-    <img src="https://img.shields.io/github/stars/im-adithya/BloodLink?style=flat-square&logo=appveyor&color=yellow">
-    <img src="https://img.shields.io/github/license/im-adithya/Bloodlink?style=flat-square&logo=appveyor&color=orange">
+    <img src="https://img.shields.io/github/issues/im-adithya/BloodLink?style=flat&logo=buffer&color=blueviolet&logoColor=white">
+    <img src="https://img.shields.io/github/issues-closed/im-adithya/BloodLink?style=flat&logo=checkmarx&color=success&logoColor=white">
+    <img src="https://img.shields.io/github/forks/im-adithya/BloodLink?style=flat&logo=git&color=informational&logoColor=white">
+    <img src="https://img.shields.io/github/stars/im-adithya/BloodLink?style=flat&logo=reverbnation&color=yellow&logoColor=white">
+    <img src="https://img.shields.io/github/license/im-adithya/Bloodlink?style=flat&logo=read-the-docs&color=orange&logoColor=white">
 </p>
 <p align="center">A platform to request and receive blood for FREE!</p>
 
